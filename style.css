@@ -248,7 +248,7 @@ img:hover{
   align-items: center;
   gap: 30px;
   padding: 10px 20px;
-  align-content: center;
+  align-items: start;
 }
 .third-column-profile h6{
   color: var(--secondary-color);
