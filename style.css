@@ -200,7 +200,7 @@ img:hover{
   height: 200px;
   background: var(--white);
   padding: 20px;
-  border-left: 5px solid var(--gray);
+  border-left: 5px solid var(--secondary-color);
   box-shadow: var(--box-shadow-sm);
   border-radius: var(--border-radius);
   resize: both;
@@ -236,8 +236,8 @@ img:hover{
   transform: scale(1.5);
 }
 .third-column img{
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   border: .2px solid var(--secondary-color);
   transition: var(--transition);
@@ -248,13 +248,19 @@ img:hover{
   align-items: center;
   gap: 30px;
   padding: 10px 20px;
+  align-content: center;
 }
-.third-column-profile span{
+.third-column-profile h6{
   color: var(--secondary-color);
   cursor: pointer;
+  margin-left: 20px;
 }
-.third-column-profile span:hover{
+.third-column-profile h6:hover{
   color: var(--gray);
+}
+.third-column-profile p{
+  font-size: 1rem;
+  margin-left: 20px;
 }
 
 
