@@ -249,5 +249,13 @@ img:hover{
   gap: 30px;
   padding: 10px 20px;
 }
+.third-column-profile span{
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.third-column-profile span:hover{
+  color: var(--gray);
+}
+
 
 
